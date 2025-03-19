@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Collection - Feedback</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="feedback-page">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="form-container">
+    <h2>Give Your Feedback</h2>
+    <form action="#" method="post">
+      <label for="name"><b>Name:</b></label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="rating"><b>Rating (1 to 5):</b></label>
+      <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+      <label for="feedback"><b>Feedback:</b></label>
+      <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+      <button type="submit"><b>Submit Feedback<b></button>
+    </form>
+  </div>
+</body>
+</html>
